@@ -19,6 +19,9 @@ devDependencies:
   '@bg-dev/nuxt-naiveui':
     specifier: ^1.10.3
     version: 1.10.3(vue@3.4.21)
+  '@vicons/ionicons5':
+    specifier: ^0.12.0
+    version: 0.12.0
   autoprefixer:
     specifier: ^10.4.18
     version: 10.4.18(postcss@8.4.35)
@@ -1801,6 +1804,10 @@ packages:
       - encoding
       - supports-color
     dev: false
+
+  /@vicons/ionicons5@0.12.0:
+    resolution: {integrity: sha512-Iy1EUVRpX0WWxeu1VIReR1zsZLMc4fqpt223czR+Rpnrwu7pt46nbnC2ycO7ItI/uqDLJxnbcMC7FujKs9IfFA==}
+    dev: true
 
   /@vitejs/plugin-vue-jsx@3.1.0(vite@5.1.5)(vue@3.4.21):
     resolution: {integrity: sha512-w9M6F3LSEU5kszVb9An2/MmXNxocAnUb3WhRr8bHlimhDrXNt6n6D2nJQR3UXpGlZHh/EsgouOHCsM8V3Ln+WA==}
