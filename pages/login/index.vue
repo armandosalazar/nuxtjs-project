@@ -12,21 +12,5 @@ function handleKeydown(evt) {
 </script>
 
 <template>
-  <n-layout class="container m-auto border rounded p-4">
-    <n-layout-content>
-      <n-flex justify="center">
-        <n-input
-          @keydown="handleKeydown"
-          v-model:value="email"
-          type="text"
-          placeholder="Email"
-        />
-        <n-input
-          v-model:value="password"
-          type="password"
-          placeholder="Password"
-        />
-      </n-flex>
-    </n-layout-content>
-  </n-layout>
+  <h1>Hi</h1>
 </template>
