@@ -1,11 +1,10 @@
 <script setup>
-import {ref} from "vue";
+import { ref } from "vue";
 import Drawer from "../components/Drawer.vue";
 
 const count = ref(0);
 
 // @todo set ssr false by
-
 </script>
 
 <template>
@@ -17,7 +16,9 @@ const count = ref(0);
     <button @click="count++" class="bg-green-400 py-2 px-4 rounded font-bold">
       Count is: {{ count }}
     </button>
-    <br/>
+    <br />
     <a href="/options-api">Options API</a>
+    <br />
+    <a href="/login" class="text-green-400">Login</a>
   </main>
 </template>
