@@ -1,5 +1,6 @@
-<script setup lang="ts">
+<script setup>
 import { ref } from "vue";
+import { NDrawer, NDrawerContent } from "naive-ui";
 
 const active = ref(false);
 
