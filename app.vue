@@ -3,6 +3,4 @@
 </template>
 
 <style>
-:root {
-}
 </style>

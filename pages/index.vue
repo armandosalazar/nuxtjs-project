@@ -4,7 +4,6 @@ import Drawer from "../components/Drawer.vue";
 
 const count = ref(0);
 
-// @todo set ssr false by
 </script>
 
 <template>
