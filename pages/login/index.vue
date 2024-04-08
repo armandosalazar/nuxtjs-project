@@ -14,6 +14,16 @@ function handleKeydown(evt) {
 function handleLogin() {
   console.log(email.value, password.value);
 }
+
+function handleAny() {
+  const ok = "ok!";
+  console.log(`${ok}`);
+}
+
+function handleSumit() {
+  console.log("ok")
+}
+
 </script>
 
 <template>
